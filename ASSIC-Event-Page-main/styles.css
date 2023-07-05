@@ -24,7 +24,7 @@ body {
 
 .event-details{
   height: auto;
-  width: 60%;
+ 
 
  
 }
@@ -138,7 +138,7 @@ span.forgotpsd a {
 }
 
 .event-list{
-  width: 40%;
+  
   background-color:#f2f4f5;
   padding: 10px;
 }
