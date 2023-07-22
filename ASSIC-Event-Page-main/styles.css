@@ -15,11 +15,10 @@ body {
 
 .containe {
   margin: auto;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  
   margin-bottom: 40px;
-  flex-flow: wrap;
+ 
 }
 
 
@@ -134,7 +133,7 @@ span.forgotpsd a {
 .event-list{
   
   background-color:#f2f4f5;
-  padding: 10px;
+  
 }
 .event-card{
   
@@ -236,6 +235,46 @@ span.forgotpsd a {
   display: flex;
 }
 
+.detailpage{
+  margin-left: 10px;
+}
+
+.detailcard{
+  padding:10px ;
+}
+
+.apply-button{
+  margin: 10px;
+ margin-bottom: 20px;
+
+}
+
+.btn{
+  background: #4e5ed3;
+}
+
+.apply-btn{
+  background: #002079;
+  padding: 0.8rem;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+  }
+
+.apply-btn:hover{
+    text-decoration: none;
+    color: #f2f4f5;
+    background: #134cc7;
+  }
+
+  .borderr{
+    border:2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
 /* Media queries for the responsiveness of the page */
 @media screen and (max-width: 992px) {
   .emptydiv {
@@ -245,11 +284,7 @@ span.forgotpsd a {
   .containe{
     margin-bottom: 10%;
   }
-  .event-list{
-    width: 100%;
-    background-color:#f2f4f5;
-    padding: 10px;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -385,10 +420,7 @@ h1 {
   .containe {
     margin: auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    flex-flow: wrap;
+    
   }
 }
 
@@ -397,9 +429,6 @@ h1 {
   .containe {
     margin: auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 40px;
-    flex-flow: wrap;
+    
   }
 }
