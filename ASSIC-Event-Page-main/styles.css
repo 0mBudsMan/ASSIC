@@ -272,6 +272,7 @@ span.forgotpsd a {
   .apply-btnn{
     
     color: #fff;
+    cursor: pointer;
    
     }
   
@@ -279,6 +280,7 @@ span.forgotpsd a {
      
       background: gray;
     }
+  
 
   .borderr{
     border:2px solid #ccc;
