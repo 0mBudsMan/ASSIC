@@ -269,6 +269,17 @@ span.forgotpsd a {
     background: #134cc7;
   }
 
+  .apply-btnn{
+    
+    color: #fff;
+   
+    }
+  
+  .apply-btnn:hover{
+     
+      background: gray;
+    }
+
   .borderr{
     border:2px solid #ccc;
     border-radius: 10px;
